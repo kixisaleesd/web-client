@@ -20,6 +20,7 @@ know  = ""
 
 while 1:
     for elt in chars:
+        print(elt)
         # new css
         build_css(know+elt)
         sleep(1) # for not to ban
