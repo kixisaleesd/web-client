@@ -2,8 +2,3 @@ body {
      background-color: blue;
 }
 
-input[name=csrf] ~ * {
-    background-color: yellow;
-}
-
-
