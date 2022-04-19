@@ -12,7 +12,7 @@ def build_css(chars):
     file.close()
 
 # ----
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split()
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 know  = ""
 
 # envoie à admin 
