@@ -90,7 +90,7 @@ while 1:
         # commit & push
         os.system('git add .')
         os.system('git commit -m "update css"')
-        os.system('git push')
+        os.system('git push -f')
 
         # request POST
         # TODO: request post for aff in request bin car get et curl ne fonctionne pas
