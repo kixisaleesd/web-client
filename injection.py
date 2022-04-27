@@ -107,7 +107,7 @@ def build_css(chars):
 
 # ----
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-know  = "ruW-tjL1BW"
+know  = "ruW-tjL1BWC"
 
 # envoie à admin 
 while 1:
