@@ -1,6 +1,8 @@
 from time import sleep
 import requests
 import os
+import requests
+from requests.adapters import HTTPAdapter
 
 def build_css(chars):
         # supp du file
@@ -111,6 +113,7 @@ know  = "ruW-tjL1BWCdhbiO"
 
 # envoie à admin 
 while 1:
+        session = requests.Session()
         # new css
         build_css(know)
         #sleep(1) # for not to ban
