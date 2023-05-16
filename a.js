@@ -1,1 +1,1 @@
-top.location.href="https://google.com";
+alert(1)
